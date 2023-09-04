@@ -31,7 +31,7 @@ sms_marketing.create_campaign(campaign_name='YourCampaignName', storage=storage,
 sms_marketing.run_campaign()
 ```
 
-## Example of telephone.states.json
+## Example of telephone_states.json
 
 ```json
 {
