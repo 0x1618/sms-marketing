@@ -1,3 +1,7 @@
+# Author: Maksymilian Sawicz (max.sawicz@gmail.com)
+# Code under MIT License
+# Basically, to use my code you just need to include my name and my e-mail wherever you use this code.
+
 import json
 import threading
 import time
