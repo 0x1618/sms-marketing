@@ -15,6 +15,8 @@ pip install twilio
 ```
 
 ```python
+from sms_marketing import TelephonesStorage, SMSMarketing
+
 storage = TelephonesStorage()
 storage.set_telephones(path_to_json='path/to/telephone_states.json')
 
