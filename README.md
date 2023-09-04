@@ -23,7 +23,7 @@ storage = TelephonesStorage()
 storage.set_telephones(path_to_json='path/to/telephone_states.json')
 
 sms_marketing = SMSMarketing(account_sid='YOUR_TWILIO_ACCOUNT_SID', auth_token='YOUR_TWILIO_AUTH_TOKEN')
-sms_marketing.set_mobile_number(alphanumeric_sender_id='YOUR_SENDER_ID')
+sms_marketing.set_mobile_number(alphanumeric_sender_id='YOUR_TWILIO_SENDER_ID', mobile_number='YOUR_TWILIO_MOBILE_NUMBER') # You have to choose between alphanumeric_sender_id and mobile_number
 sms_marketing.create_campaign(campaign_name='YourCampaignName', storage=storage, sms_body='Your SMS message body')
 sms_marketing.run_campaign()
 ```
