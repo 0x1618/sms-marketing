@@ -2,6 +2,8 @@
 
 This Python script allows you to manage SMS marketing campaigns using the Twilio API. It provides a convenient way to send SMS messages to a list of phone numbers while keeping track of the campaign's progress.
 
+> :warning: **This code is used for the author's own purposes and may not be flexible to the user's needs :)**
+
 ## Prerequisites
 
 Before using this script, make sure you have the following prerequisites:
